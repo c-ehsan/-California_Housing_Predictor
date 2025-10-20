@@ -40,3 +40,11 @@ The app lets users input key features (like income, rooms, and population) and i
 ## 🖼️ Demo
 ![Demo](demo_gif.gif)
 ## 📁 Project Structure  
+
+📦 California_Housing_Predictor
+├── data/ — contains the dataset (california_housing_test.csv)
+├── model/ — trained_model.pkl & scaler.pkl
+├── notebooks/ — model training and analysis
+├── app.py — Streamlit web app
+├── requirements.txt — project dependencies
+└── README.md — project documentation
