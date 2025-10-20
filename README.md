@@ -1,2 +1,39 @@
-# -California_Housing_Predictor
-Hello to all of you In this project, I took a dataset of California houses and built a model that predicts house prices with the features you see. Of course, its accuracy is not very high, but it is good and practical.
+# 🏠 California Housing Price Predictor  
+
+> **An interactive Machine Learning web app that predicts California house prices based on real-world census data.**  
+> Built with ❤️ using Python, scikit-learn, and Streamlit.  
+
+---
+
+## 🚀 Overview  
+This project uses a **Random Forest Regressor** trained on the **California Housing Dataset** to predict median house values.  
+The app lets users input key features (like income, rooms, and population) and instantly get an estimated house price.  
+
+🧠 **Model Performance:**  
+- ✅ Algorithm: Random Forest Regressor  
+- ✅ R² Score: **0.70**  
+- ✅ MSE: 3.79e+09  
+- ✅ Feature Importance: `median_income` had the highest impact (~0.5)
+
+---
+
+## 🧩 Features  
+- Real-time price prediction  
+- Interactive web interface (Streamlit)  
+- Scaled input data using `StandardScaler`  
+- Saved trained model (`joblib`) for deployment  
+- Clean modular project structure  
+
+---
+
+## 🧠 Tech Stack  
+| Category | Tools Used |
+|-----------|-------------|
+| Programming | Python 3.x |
+| Libraries | scikit-learn, pandas, numpy, joblib |
+| Web App | Streamlit |
+| Environment | Jupyter Notebook + Streamlit |
+
+---
+
+## 📁 Project Structure  
