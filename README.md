@@ -36,4 +36,7 @@ The app lets users input key features (like income, rooms, and population) and i
 
 ---
 
+
+## 🖼️ Demo
+![Demo](demo_gif.gif)
 ## 📁 Project Structure  
